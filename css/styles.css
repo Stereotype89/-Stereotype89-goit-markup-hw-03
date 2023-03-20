@@ -156,3 +156,24 @@ body {
   color: var(--white);
   background-color: var(--blue_);
 }
+
+/**--Styles GEOMETRY--**/
+* {
+  box-sizing: border-box;
+}
+
+.header-box,
+.nav-box,
+.nav-list,
+.list {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  padding: 0px;
+  justify-content: space-between;
+}
+
+.button-main {
+  display: flex;
+  flex-direction: row;
+}
