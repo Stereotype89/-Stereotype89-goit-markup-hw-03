@@ -172,8 +172,26 @@ body {
   padding: 0px;
   justify-content: space-between;
 }
+.logo {
+  margin: 0;
+  padding: 0;
+  margin-left: 156px;
+  margin-top: 24px;
+}
+.nav-list {
+  margin: 0;
+  padding: 0;
+  align-items: center;
+  margin-left: 76px;
+  margin-top: 24px;
+  gap: 40px;
+}
 
-.button-main {
-  display: flex;
-  flex-direction: row;
+.list {
+  margin: 0;
+  padding: 0;
+  align-items: center;
+  margin-top: 24px;
+  margin-left: 76px;
+  gap: 40px;
 }
