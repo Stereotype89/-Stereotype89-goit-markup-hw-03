@@ -5,11 +5,24 @@
   --blue_: #404bbf;
 }
 
+p,
 h1,
 h2,
 h3,
 h4,
-p {
+h5 {
+  margin: 0;
+}
+
+button {
+  cursor: pointer;
+}
+
+address {
+  font-style: normal;
+}
+
+* {
   margin-top: 0;
   margin-bottom: 0;
 }
@@ -93,7 +106,6 @@ body {
 }
 
 .cont {
-  font-style: normal;
   font-size: 16px;
   line-height: 1.5;
   letter-spacing: 0.02em;
@@ -120,7 +132,6 @@ body {
   font-size: 16px;
   line-height: 1.5;
   letter-spacing: 0.04em;
-  cursor: pointer;
   color: #ffffff;
 }
 
@@ -188,7 +199,6 @@ body {
   font-size: 16px;
   line-height: 1.5;
   letter-spacing: 0.04em;
-  cursor: pointer;
 }
 
 .button_:is(:hover, :focus) {
