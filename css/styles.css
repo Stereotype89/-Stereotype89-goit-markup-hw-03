@@ -40,12 +40,8 @@ body {
 
 .container {
   margin: 0 auto;
-  width: 1128px;
-}
-
-.header-box {
-  padding-left: 156px;
-  padding-right: 156px;
+  width: 1440px;
+  padding: 0 156px 0 156px;
 }
 
 .logo {
