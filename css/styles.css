@@ -16,6 +16,9 @@ h5 {
 
 button {
   cursor: pointer;
+  margin: 0;
+  border: 0;
+  padding: 0;
 }
 
 address {
@@ -45,13 +48,17 @@ body {
   width: 1440px;
   padding-left: 156px;
   padding-right: 156px;
-  outline: 2px solid red;
+  /* outline: 2px solid red; */
 }
 
 .nav-list,
 .nav-box,
 .header-box,
-.cont .address-list {
+.cont .address-list,
+.div-buttonsect_,
+.effsolutions .section-one-button,
+.list-activity,
+.section-four-list {
   display: flex;
   align-items: center;
 }
@@ -118,28 +125,33 @@ body {
 }
 
 /**--Section1 -INDEX.HTML--*/
-.div-buttonsect_,
-.button-main {
-  align-items: center;
-}
+
 .buttonsect_ {
-  background-color: #2e2f42;
+}
+
+.buttonsect_ {
+  padding: 0;
 }
 
 .div-buttonsect_ {
-  width: 496px;
-  height: 120px;
-  left: 472px;
-  top: 260px;
+  align-items: center;
+  flex-direction: column;
+  background-color: #2e2f42;
 }
 
 .effsolutions {
+  margin-top: 188px;
+  font-weight: 700;
   font-size: 56px;
   line-height: 1.07;
   text-align: center;
-  letter-spacing: 0.02em;
+  letter-spacing: 0.04em;
   color: #ffffff;
-  margin-top: 188px;
+  text-align: center;
+}
+
+.section-one-button {
+  margin-top: 48px;
 }
 
 .button-main {
@@ -150,11 +162,12 @@ body {
   line-height: 1.5;
   letter-spacing: 0.04em;
   color: #ffffff;
-  gap: 10px;
-  width: 169px;
-  height: 56px;
   box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
   border-radius: 4px;
+  width: 169px;
+  height: 56px;
+  text-align: center;
+  margin-bottom: 188px;
 }
 
 .button-main:is(:hover, :focus) {
@@ -162,7 +175,20 @@ body {
 }
 
 /*Section2 -INDEX.HTML-*/
+.div-section-two .list {
+  display: flex;
+  gap: 24px;
+  margin-top: 120px;
+  margin-bottom: 120px;
+}
+
+.div-section-two {
+  border-bottom: 2px;
+  border-top: 2px;
+}
+
 .list-item {
+  margin-bottom: 8px;
   font-weight: 500;
   font-size: 20px;
   line-height: 1.2;
@@ -178,6 +204,12 @@ body {
 }
 
 /*Section3 -INDEX.HTML-*/
+.list-activity {
+  gap: 24px;
+  margin-top: 72px;
+  margin-bottom: 120px;
+}
+
 .activity {
   font-size: 36px;
   line-height: 1.11;
@@ -188,6 +220,25 @@ body {
 }
 
 /*Section4 -INDEX.HTML-*/
+.div-section-four {
+  margin-top: 120px;
+  margin-bottom: 120px;
+}
+
+.title-section-four {
+  align-items: center;
+  margin-top: 120px;
+  margin-bottom: 72px;
+}
+
+.section-four-list {
+  gap: 24px;
+}
+
+.section-four-item {
+  margin-top: 32px;
+}
+
 .our-team {
   background-color: #f4f4fd;
 }
@@ -197,6 +248,7 @@ body {
   font-weight: 500;
   font-size: 20px;
   line-height: 1.2;
+  gap: 24px;
 }
 
 /*Footer -INDEX.HTML-*/
@@ -204,10 +256,9 @@ body {
 .footer-b {
   background-color: #2e2f42;
 }
-.logos-span-footer {
-  color: #f4f4fd;
-}
-.foofter-t {
+
+.foofter-t,
+.logo-span-footer {
   color: #f4f4fd;
 }
 
