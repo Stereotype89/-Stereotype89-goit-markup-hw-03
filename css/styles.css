@@ -178,13 +178,13 @@ body {
 .div-section-two .list {
   display: flex;
   gap: 24px;
-  margin-top: 120px;
-  margin-bottom: 120px;
+  /* margin-top: 120px;
+  margin-bottom: 120px; */
 }
 
 .div-section-two {
-  border-bottom: 2px;
-  border-top: 2px;
+  margin-top: 120px;
+  margin-bottom: 120px;
 }
 
 .list-item {
@@ -204,9 +204,8 @@ body {
 }
 
 /*Section3 -INDEX.HTML-*/
-.list-activity {
-  gap: 24px;
-  margin-top: 72px;
+.section-three {
+  margin-top: 120px;
   margin-bottom: 120px;
 }
 
@@ -218,33 +217,33 @@ body {
   text-transform: capitalize;
   color: #2e2f42;
 }
+.list-activity {
+  gap: 24px;
+  margin-top: 72px;
+}
 
 /*Section4 -INDEX.HTML-*/
-.div-section-four {
-  margin-top: 120px;
-  margin-bottom: 120px;
-}
-
-.title-section-four {
-  align-items: center;
-  margin-top: 120px;
-  margin-bottom: 72px;
-}
-
-.section-four-list {
-  gap: 24px;
-}
-
-.section-four-item {
-  margin-top: 32px;
-}
 
 .our-team {
   background-color: #f4f4fd;
+  padding-top: 120px;
+  margin-bottom: 120px;
+}
+
+.div-section-four {
+}
+
+.title-section-four {
+  display: flex;
+  justify-content: center;
+}
+.section-four-list {
+}
+
+.section-four-item {
 }
 
 .list-uorteam {
-  background-color: #ffffff;
   font-weight: 500;
   font-size: 20px;
   line-height: 1.2;
