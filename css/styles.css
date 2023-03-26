@@ -48,7 +48,6 @@ body {
   max-width: 1440px;
   padding-left: 156px;
   padding-right: 156px;
-  /* outline: 2px solid red; */
 }
 
 .nav-list,
@@ -114,6 +113,7 @@ body {
 
 .item-mail {
   color: #434455;
+  white-space: nowrap;
 }
 
 .item-mail:is(:hover, :focus) {
@@ -221,6 +221,7 @@ body {
   text-transform: capitalize;
   color: #2e2f42;
 }
+
 .list-activity {
   gap: 24px;
   margin-top: 72px;
