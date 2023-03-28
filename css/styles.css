@@ -45,9 +45,8 @@ body {
 
 .container {
   margin: 0 auto;
-  max-width: 1440px;
-  padding-left: 156px;
-  padding-right: 156px;
+  max-width: 1158px;
+  padding: 0 15px;
 }
 
 .nav-list,
@@ -82,9 +81,7 @@ body {
   letter-spacing: 0.03em;
   text-transform: uppercase;
   color: #4d5ae5;
-  margin-right: 76px;
-  margin-top: 25.5px;
-  margin-bottom: 25.5px;
+  margin: 24px 76px 24px 0;
 }
 
 .logo-span {
@@ -125,12 +122,14 @@ body {
   line-height: 1.5;
   letter-spacing: 0.02em;
   color: #434455;
+  margin-right: 15px;
 }
 
 /**--Section1 -INDEX.HTML--*/
 
 .buttonsect_ {
   background-color: #2e2f42;
+  padding: 188px 15px;
 }
 
 .div-buttonsect_ {
@@ -139,14 +138,12 @@ body {
 }
 
 .effsolutions {
-  margin-top: 188px;
   font-weight: 700;
   font-size: 56px;
   line-height: 1.07;
   text-align: center;
   letter-spacing: 0.04em;
   color: #ffffff;
-  text-align: center;
 }
 
 .section-one-button {
@@ -163,10 +160,8 @@ body {
   color: #ffffff;
   box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
   border-radius: 4px;
-  width: 169px;
-  height: 56px;
   text-align: center;
-  margin-bottom: 188px;
+  padding: 16px 32px;
 }
 
 .button-main:is(:hover, :focus) {
@@ -175,12 +170,18 @@ body {
 
 /*Section2 -INDEX.HTML-*/
 .section-two {
-  padding-top: 120px;
+  padding: 120px 15px;
 }
 
-.div-section-two .list {
-  display: flex;
+.list {
   gap: 24px;
+
+  display: flex;
+  align-items: flex-start;
+}
+
+.li-section-two {
+  width: 264px;
 }
 
 .div-section-two {
@@ -205,7 +206,6 @@ body {
 
 /*Section3 -INDEX.HTML-*/
 .section-three {
-  padding-top: 120px;
   padding-bottom: 120px;
   /* margin-bottom: 120px; */
 }
@@ -224,30 +224,28 @@ body {
 
 .list-activity {
   gap: 24px;
-  margin-top: 72px;
+  padding-top: 72px;
 }
 
 /*Section4 -INDEX.HTML-*/
 
 .our-team {
-  background-color: #f4f4fd;
-  padding-top: 120px;
-  padding-bottom: 120px;
-  padding-left: 156px;
-  padding-right: 156px;
 }
 
 .div-section-four {
-  display: flex;
+  padding: 120px 15px;
+
+  align-items: center;
+  background-color: #f4f4fd;
 }
 
-.section-four-list {
-  margin-top: 72px;
-  display: flex;
-  gap: 24px;
+.title-section-four {
+  padding-bottom: 72px;
 }
 
 .list-uorteam {
+  align-items: center;
+  text-align: center;
   background-color: #ffffff;
   box-shadow: 0px 1px 6px rgba(46, 47, 66, 0.08),
     0px 1px 1px rgba(46, 47, 66, 0.16), 0px 2px 1px rgba(46, 47, 66, 0.08);
@@ -258,7 +256,6 @@ body {
   font-weight: 500;
   font-size: 20px;
   line-height: 1.2;
-  text-align: center;
   letter-spacing: 0.02em;
   color: #2e2f42;
   margin-top: 32px;
@@ -279,8 +276,7 @@ body {
 .footer-container {
   display: flex;
   flex-direction: column;
-  padding-top: 100px;
-  padding-bottom: 100px;
+  padding: 100px 15px 100px 15px;
   background-color: #2e2f42;
 }
 
@@ -325,14 +321,16 @@ body {
 }
 
 .header-portfolio {
-  margin: 32px 0 8px 16px;
+  padding: 32px 0 8px 16px;
+  margin: 0;
 }
 
 .list-portfolio .li-solid .main-p {
-  margin: 0 0 32px 16px;
+  padding: 0 0 32px 16px;
 }
 
-.main-footer {
+.main-portfolio {
+  padding-top: 96px;
   padding-bottom: 120px;
 }
 
@@ -341,7 +339,6 @@ body {
   align-items: center;
   justify-content: center;
   gap: 24px;
-  margin: 96px 0 72px 0;
 }
 
 .button_ {
@@ -360,6 +357,7 @@ body {
   flex-grow: 0;
   align-items: flex-start;
   padding: 12px 24px;
+  margin-bottom: 72px;
 }
 
 .button_:is(:hover, :focus) {
@@ -372,5 +370,5 @@ body {
   flex-wrap: wrap;
   order: 3;
   align-items: center;
-  gap: 21px;
+  gap: 20px;
 }
