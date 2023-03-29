@@ -68,9 +68,12 @@ body {
   margin-right: auto;
 }
 
-.nav-list,
+.header-solid .header-box .nav-box .nav-list,
 .address-list {
   gap: 40px;
+}
+.addres-gap {
+  padding-right: 26px;
 }
 
 .logo {
@@ -122,19 +125,20 @@ body {
   line-height: 1.5;
   letter-spacing: 0.02em;
   color: #434455;
-  margin-right: 15px;
+  padding-right: 15px;
 }
 
 /**--Section1 -INDEX.HTML--*/
 
 .buttonsect_ {
-  background-color: #2e2f42;
-  padding: 188px 15px;
 }
 
 .div-buttonsect_ {
+  background-color: #2e2f42;
   align-items: center;
   flex-direction: column;
+  padding-top: 188px;
+  padding-bottom: 188px;
 }
 
 .effsolutions {
@@ -144,6 +148,9 @@ body {
   text-align: center;
   letter-spacing: 0.04em;
   color: #ffffff;
+}
+
+.effsolutions-one {
 }
 
 .section-one-button {
@@ -204,7 +211,8 @@ body {
   text-align: left;
 }
 
-/*Section3 -INDEX.HTML-*/
+/**Section3 -INDEX.HTML-*/
+
 .section-three {
   padding-bottom: 120px;
   /* margin-bottom: 120px; */
@@ -214,6 +222,9 @@ body {
 }
 
 .activity {
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 700;
   font-size: 36px;
   line-height: 1.11;
   text-align: center;
@@ -225,6 +236,7 @@ body {
 .list-activity {
   gap: 24px;
   padding-top: 72px;
+  padding-bottom: 120px;
 }
 
 /*Section4 -INDEX.HTML-*/
@@ -258,8 +270,8 @@ body {
   line-height: 1.2;
   letter-spacing: 0.02em;
   color: #2e2f42;
-  margin-top: 32px;
-  margin-bottom: 8px;
+  padding-top: 32px;
+  padding-bottom: 8px;
 }
 
 .main-text {
@@ -268,7 +280,7 @@ body {
   text-align: center;
   letter-spacing: 0.02em;
   color: #434455;
-  margin-bottom: 32px;
+  padding-bottom: 32px;
 }
 
 /*Footer -INDEX.HTML-*/
@@ -329,7 +341,7 @@ body {
   padding: 0 0 32px 16px;
 }
 
-.main-portfolio {
+.section-portfolio {
   padding-top: 96px;
   padding-bottom: 120px;
 }
@@ -338,7 +350,7 @@ body {
   display: flex;
   align-items: center;
   justify-content: center;
-  gap: 24px;
+  margin-bottom: 72px;
 }
 
 .button_ {
@@ -357,10 +369,9 @@ body {
   flex-grow: 0;
   align-items: flex-start;
   padding: 12px 24px;
-  margin-bottom: 72px;
 }
 
-.button_:is(:hover, :focus) {
+.section-portfolio .button_:is(:hover, :focus) {
   color: var(--white);
   background-color: var(--blue_);
 }
